@@ -5,6 +5,9 @@
     即可以存储数据类型，也可以存储引用类型
     格式1：数据类型[]数组名；以后都使用第一种
     格式2：数据类型 数组名[];
+
+    栈内存的两个引用指向同一个堆内存地址空间
+    无论谁操作，都是针对同一个堆内存
  */
 
 package Shuzu;
@@ -27,6 +30,12 @@ public class ShuzuDemo01 {
         System.out.println(arr);
         //未赋值，只指 长度，输出地址值[I@4554617c
         //地址值无意义，就要数据值
+        arr[0]=100;
+        arr[2]=20;
+        System.out.println(arr[0]);
+        System.out.println(arr[1]);
+        System.out.println(arr[2]);
+
     }
 
 
