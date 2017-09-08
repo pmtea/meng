@@ -17,7 +17,7 @@ private String name;
     }
 
     //构造方法的重载
-    public Student94(String name){
+    public void Student94(String name){
         this.name=name;
     }
 }
