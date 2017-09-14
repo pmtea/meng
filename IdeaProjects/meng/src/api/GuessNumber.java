@@ -12,7 +12,7 @@ public class GuessNumber {
             System.out.println("请输入你猜的数");
             int youguess = sc.nextInt();
             if (guessnumber > youguess) {
-                System.out.println("你猜小了");
+                System.out.println("你猜小了");//TODO
 
             }
             else if (guessnumber < youguess) {
